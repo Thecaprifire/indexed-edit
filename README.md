@@ -15,6 +15,7 @@ The indexed-edit application is a powerful single-page text editor built as a Pr
   * [Acceptance Criteria](#acceptance-criteria)
   * [Installation Process](#installation-process)
   * [Actual Website Link](#actual-website-link)
+  * [Walkthrough Video](#walkthrough-video)
   * [Screenshots](#screenshots)
   * [Resources](#resources)
   * [Questions](#questions)
@@ -71,7 +72,7 @@ Begin by cloning the repository to your local machine using Git: `git clone http
 2. Navigate to the project directory:
 Once the repository is cloned, navigate into the project directory: `cd indexed-edit`
 3. Install dependencies:
-Install the required dependencies for both the client and server using npm. This includes setting up the necessary packages for the text editor, service worker, and IndexedDB functionality. `npm install`
+Install the required dependencies for both the client and server using npm. This includes setting up the necessary packages for the text editor, service worker, and IndexedDB functionality. `cd client`, then `npm install`, next `cd ../server`, then `npm install`, next `cd ..`, then `npm install`
 4. Build the application:
 Build the production-ready application by running the build script: `npm run build`
 5. Start the development server:
@@ -83,7 +84,11 @@ You should now be able to use indexed-edit as a fully functional, offline-capabl
 
 
 ## Actual Website Link:
-[]()
+[Indexed Edit](https://indexed-edit.onrender.com)
+
+
+## Walkthrough Video
+[Indexed Edit - Youtube Link](https://youtu.be/DFuoppFINUQ)
 
 
 ## Screenshots:
