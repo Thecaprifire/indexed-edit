@@ -4,7 +4,7 @@
   "description": "A single-page text editor built as a PWA with support for IndexedDB to ensure data is stored and retrieved efficiently even when offline.",
   "main": "server/server.js",
   "scripts": {
-    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run start\"",
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
     "start": "npm run build && cd server && node server.js",
     "build": "cd client && npm run build",
     "install": "cd server && npm install && cd ../client && npm install",
