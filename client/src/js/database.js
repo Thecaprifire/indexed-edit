@@ -12,8 +12,6 @@ const initdb = async () =>
     },
   });
 
-// Used Module 19 Activity 24 as a reference
-
 // Function to add content to the database
 export const putDb = async (content) => {
   console.log('Put to the Database');
